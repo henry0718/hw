@@ -167,6 +167,7 @@ void flip(int x, int y, int i, int j, int current_color, int chess[8][8], int te
 
         }
 }
+
 int main()
 {
     int i,j,current_color;
