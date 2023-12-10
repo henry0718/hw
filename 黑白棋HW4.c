@@ -93,9 +93,9 @@ int main()
     int temp_x,temp_y;
     current_color = 1;   // 0:empty 1:black 2:white
     
-    for ( i = 0; i < 9; i++)
+    for ( i = 0; i < 8; i++)
     {
-        for ( j = 0; j < 9; j++)
+        for ( j = 0; j < 8; j++)
         {
             inspect( i, j, current_color, chess, temp_chess, temp_x, temp_y);
         }
